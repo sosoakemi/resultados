@@ -22,6 +22,7 @@ body{
     background: var(--resultado-bg);
     text-align: center;
     color: var(--white);
+    border-radius: 0 0 3.2rem 3.2rem;
 
 }
 
@@ -54,3 +55,13 @@ body{
     color: var(--light-blue);
 }
 
+.resultado h2 {
+    font-size: 2.4rem;
+    margin-bottom: 1rem;
+}
+
+.resultado p {
+    max-width: 26rem;
+    margin-inline: auto;
+    color: var(--light-blue);
+}
